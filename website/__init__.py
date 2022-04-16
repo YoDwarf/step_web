@@ -24,7 +24,7 @@ def send_email(name, msg):
         server.ehlo()
         server.login(EMAIL, PW)
         message = translit('Subject: {} отправил поздравление\n\n{}'.format(name, msg), 'ru', reversed=1)
-        server.sendmail(EMAIL, 's.kolovorotnyy@gmail.com', message)
+        server.sendmail(EMAIL, 'kgbeast299@gmail.com', message)
         server.quit()
     except:
         print("Error")
