@@ -2,8 +2,8 @@ from flask import Flask
 import smtplib
 from transliterate import translit
 
-EMAIL = 'email.email.sender@mail.ru'
-PW = 'YqDrymDzGmQ1vKf5AGea'
+EMAIL = 'arina.hbd@mail.ru'
+PW = 'hq8kEpezCjZeG9ExeDEJ'
 
 
 def create_app():
